@@ -30,7 +30,7 @@ document.getElementById("submit-button").addEventListener("click", function (e) 
     e.preventDefault();
     // Rest of the code
 
-
+console.log("button has been clicked")
 
     // Get form input values
     const date = document.getElementById("date").value;
