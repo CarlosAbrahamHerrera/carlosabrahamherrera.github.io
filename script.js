@@ -26,7 +26,7 @@ function displayExpenses() {
 }
 
 // Event listener for form submission
-document.getElementById("expense-form").addEventListener("submit-button", function (e) {
+document.getElementById("expense-form").addEventListener("submit", function (e) {
     e.preventDefault(); // Prevent page reload
 
     // Get form input values
