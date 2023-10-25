@@ -30,7 +30,6 @@ document.getElementById("submit-button").addEventListener("click", function (e) 
     e.preventDefault();
     // Rest of the code
 
-console.log("button has been clicked")
 
     // Get form input values
     const date = document.getElementById("date").value;
@@ -50,7 +49,7 @@ console.log("button has been clicked")
     document.getElementById("description").value = "";
     document.getElementById("paid-by").value = "";
 });
-console.log(document.getElementById("header"))
+console.log("hello")
 
 // Initial display of expenses
 displayExpenses();
