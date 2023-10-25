@@ -50,7 +50,7 @@ console.log("button has been clicked")
     document.getElementById("description").value = "";
     document.getElementById("paid-by").value = "";
 });
-
+console.log(document.getElementById("header"))
 
 // Initial display of expenses
 displayExpenses();
