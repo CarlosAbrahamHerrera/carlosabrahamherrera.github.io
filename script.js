@@ -6,6 +6,7 @@ function addExpense(date, amount, description, paidBy) {
     const expense = { date, amount, description, paidBy };
     expenses.push(expense);
 }
+console.log("hello")
 
 // Function to display expenses in the expense-list section
 function displayExpenses() {
@@ -49,7 +50,6 @@ document.getElementById("submit-button").addEventListener("click", function (e) 
     document.getElementById("description").value = "";
     document.getElementById("paid-by").value = "";
 });
-console.log("hello")
 
 // Initial display of expenses
 displayExpenses();
