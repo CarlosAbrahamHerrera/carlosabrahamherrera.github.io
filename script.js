@@ -48,5 +48,6 @@ document.getElementById("expense-form").addEventListener("submit", function (e) 
     document.getElementById("paid-by").value = "";
 });
 
+
 // Initial display of expenses
 displayExpenses();
