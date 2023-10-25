@@ -29,7 +29,8 @@ function displayExpenses() {
 // Event listener for form submission
 document.getElementById("submit-button").addEventListener("click", function (e) {
     e.preventDefault();
-    // Rest of the code
+    console.log("buttonhasclickeditself")
+    /* // Rest of the code
 
 
     // Get form input values
@@ -48,7 +49,7 @@ document.getElementById("submit-button").addEventListener("click", function (e) 
     document.getElementById("date").value = "";
     document.getElementById("amount").value = "";
     document.getElementById("description").value = "";
-    document.getElementById("paid-by").value = "";
+    document.getElementById("paid-by").value = ""; */
 });
 
 // Initial display of expenses
