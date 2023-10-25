@@ -26,8 +26,11 @@ function displayExpenses() {
 }
 
 // Event listener for form submission
-document.getElementById("expense-form").addEventListener("submit", function (e) {
-    e.preventDefault(); // Prevent page reload
+document.getElementById("submit-button").addEventListener("click", function (e) {
+    e.preventDefault();
+    // Rest of the code
+
+
 
     // Get form input values
     const date = document.getElementById("date").value;
